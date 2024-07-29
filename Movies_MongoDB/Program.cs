@@ -3,7 +3,7 @@ using MongoDB.Bson;
 using CsvHelper;
 using System.Globalization;
 
-const string connectionUri = "mongodb+srv://admin:BlueSky2024@cluster0.4ldofje.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const string connectionUri = "mongodb+srv://admin:<Password>@cluster0.4ldofje.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 var settings = MongoClientSettings.FromConnectionString(connectionUri);
 
